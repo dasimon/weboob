@@ -127,6 +127,7 @@ def install_weboob():
         'python-dateutil',
         'PyYAML',
         'prettytable',
+        'html2text',
     ]
     try:
         import Image
