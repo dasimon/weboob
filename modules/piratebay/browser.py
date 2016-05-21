@@ -27,7 +27,7 @@ __all__ = ['PiratebayBrowser']
 
 
 class PiratebayBrowser(PagesBrowser):
-    BASEURL = 'https://thepiratebay.se'
+    BASEURL = 'https://thepiratebay.org'
 
     index_page = URL('/$', IndexPage)
     torrents_page = URL('/search/(?P<query>.+)/0/7/0', TorrentsPage)
